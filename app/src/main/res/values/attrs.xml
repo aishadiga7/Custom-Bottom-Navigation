@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ColorOptionsView">
+        <attr name="titleText" format="string" localization="suggested" />
+        <attr name="valueColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="BottomActionView">
+        <attr name="num_of_icons" format="integer"/>
+        <attr name="icon_titles" format="reference"/>
+        <attr name="icons" format="reference"/>
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="titles">
+        <item>Favorites</item>
+        <item>Location</item>
+        <item>Hotels</item>
+        <item>Recents</item>
+
+    </string-array>
+    <string-array name="icons">
+        <item>@drawable/ic_favorite_white_24dp</item>
+        <item>@drawable/ic_location_on_white_24dp</item>
+        <item>@drawable/ic_local_dining_white_24dp</item>
+        <item>@drawable/ic_update_white_24dp</item>
+    </string-array>
+</resources>

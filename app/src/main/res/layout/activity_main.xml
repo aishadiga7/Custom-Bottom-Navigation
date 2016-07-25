@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/relative_layout"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:orientation="vertical"
+                android:showDividers="middle"
+                android:divider="?android:attr/listDivider"
+                tools:context=".MainActivity">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/shadow"
+        android:background="@android:color/white" />
+
+    <View
+        android:id="@+id/shadow"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_above="@+id/bottom_bar"
+        android:background="@drawable/shadow"/>
+
+    <retrofit.aishwarya.com.customview.BottomActionView
+        android:id="@+id/bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:icon_titles="@array/titles"
+        app:icons="@array/icons"
+        app:num_of_icons="4"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
